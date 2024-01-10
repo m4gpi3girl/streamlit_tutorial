@@ -1,16 +1,20 @@
 # import packages
 
 # streamlit to make the app
-import streamlit as st
+#import streamlit as st
 
 # pandas to be our excel
-import pandas as pd 
+#import pandas as pd 
 
 # to do vizzz
-pip install matplotlib
-import matplotlib.pyplot as plt
+#pip install matplotlib
+#import matplotlib.pyplot as plt
 
-
+pandas
+matplotlib
+pydeck
+streamlit
+flexidate
 
 # for the csv to be read
 def read_csv(file):
