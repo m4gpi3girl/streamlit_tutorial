@@ -7,6 +7,7 @@ import streamlit as st
 import pandas as pd 
 
 # to do vizzz
+pip install matplotlib
 import matplotlib.pyplot as plt
 
 
@@ -78,9 +79,9 @@ def main():
 
                 # show imd dist as a pie chart
                 df = counts_df
-                fig, ax = plt.pie(df['IMD Decile'], labels=df['IMD Decile'], autopct='%1.1f%%', startangle=90)
+                plt.pie(df['IMD Decile'], labels=df['IMD Decile'], autopct='%1.1f%%', startangle=90)
                 plt.title('Distribution Across IMD Areas')
-                st.pyplot(fig)
+                st.pyplot()
 
 
 
